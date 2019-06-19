@@ -5,7 +5,7 @@ const extractCSS = new MiniCssExtractPlugin({ filename: `allstyles.css` });
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
-    entry: { 'main': './wwwroot/source/index.js' },
+    entry: { 'main': './wwwroot/src/index.js' },
     output: {
         path: path.resolve(__dirname, 'wwwroot/dist'),
         filename: 'bundle.js',
